@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWorkers</title>
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/50/50874.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="box">
+        <h2>Worker of company</h2>
+        <div class="member">
+            <div class="activ">
+                <h3 style="text-align: center;">Active member</h3>
+                <section></section>
+            </div>
+            <div class="newMember">
+                <h3>Member</h3><br>
+                <div class="member" id="1"></div>
+                <div class="member" id="2"></div>
+                <div class="member" id="3"></div>
+                <div class="member" id="4"></div>
+                <div class="member" id="5"></div>
+                <div class="member" id="6"></div>
+
+
+                <button id="openForm">+</button>
+            </div>
+        </div>
+    </div>
+    <div id="form">
+        <div class="inForm">
+            <div id="closeForm">×</div>
+            <input type="text" placeholder="ПІБ" id="PIB">
+            <input type="text" placeholder="Посада" id="posada">
+            <button id="send">Додати</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
